@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('gnome-hig-colors.css');
 * {
 	padding: 0;
 	border: 0;
@@ -41,7 +40,7 @@ body {
 	width: var(--size, 400px);
 	border-radius: var(--size, 400px);
 	background-color: var(--dark-4);
-	background-image: url(../img/clock-face.png);
+	background-image: url(img/clock-face.png);
 }
 .clock:before {
 	--size: 15px;
